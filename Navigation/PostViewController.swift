@@ -1,29 +1,23 @@
-//
-//  PostViewController.swift
-//  Navigation
-//
-//  Created by Max Sokolov on 22.05.2024.
-//
 
 import UIKit
 
-class PostViewController: UIViewController {
+struct Post {
+    let title: String
+}
 
+class PostViewController: UIViewController {
+    var post: Post?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .lightGray
+        self.title = post?.title
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Info", style: .plain, target: self, action: #selector(showInfo))
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func showInfo() {
+        let infoVC = InfoViewController()
+        present(infoVC, animated: true, completion: nil)
     }
-    */
-
 }

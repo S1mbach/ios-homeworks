@@ -46,6 +46,7 @@
 		DA9CF8AC2BFC93A3007C7BA5 = {
 			isa = PBXGroup;
 			children = (
+				DAD556F92C05E70800A843A2 /* Profile */,
 				DA9CF8B72BFC93A4007C7BA5 /* Navigation */,
 				DA9CF8B62BFC93A4007C7BA5 /* Products */,
 			);
@@ -74,6 +75,13 @@
 				DA9CF8D22BFDF26C007C7BA5 /* InfoViewController.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		DAD556F92C05E70800A843A2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

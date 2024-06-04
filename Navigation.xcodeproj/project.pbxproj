@@ -16,6 +16,7 @@
 		DA9CF8CF2BFDF158007C7BA5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9CF8CE2BFDF158007C7BA5 /* ProfileViewController.swift */; };
 		DA9CF8D12BFDF1C1007C7BA5 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9CF8D02BFDF1C1007C7BA5 /* PostViewController.swift */; };
 		DA9CF8D32BFDF26C007C7BA5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9CF8D22BFDF26C007C7BA5 /* InfoViewController.swift */; };
+		DAD556FB2C05E82C00A843A2 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD556FA2C05E82C00A843A2 /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DA9CF8CE2BFDF158007C7BA5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DA9CF8D02BFDF1C1007C7BA5 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		DA9CF8D22BFDF26C007C7BA5 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		DAD556FA2C05E82C00A843A2 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,6 @@
 				DA9CF8C32BFC93A5007C7BA5 /* LaunchScreen.storyboard */,
 				DA9CF8C62BFC93A5007C7BA5 /* Info.plist */,
 				DA9CF8CC2BFDF04F007C7BA5 /* FeedViewController.swift */,
-				DA9CF8CE2BFDF158007C7BA5 /* ProfileViewController.swift */,
 				DA9CF8D02BFDF1C1007C7BA5 /* PostViewController.swift */,
 				DA9CF8D22BFDF26C007C7BA5 /* InfoViewController.swift */,
 			);
@@ -80,6 +81,8 @@
 		DAD556F92C05E70800A843A2 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				DAD556FA2C05E82C00A843A2 /* ProfileHeaderView.swift */,
+				DA9CF8CE2BFDF158007C7BA5 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				DA9CF8CF2BFDF158007C7BA5 /* ProfileViewController.swift in Sources */,
 				DA9CF8CD2BFDF04F007C7BA5 /* FeedViewController.swift in Sources */,
 				DA9CF8BB2BFC93A4007C7BA5 /* SceneDelegate.swift in Sources */,
+				DAD556FB2C05E82C00A843A2 /* ProfileHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA86AC292D1D6EF00025DE55 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86AC262D1D6EF00025DE55 /* ProfileViewController.swift */; };
+		DA86AC2A2D1D6EF00025DE55 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86AC222D1D6EF00025DE55 /* FeedViewController.swift */; };
+		DA86AC2B2D1D6EF00025DE55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86AC272D1D6EF00025DE55 /* ViewController.swift */; };
+		DA86AC2C2D1D6EF00025DE55 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86AC252D1D6EF00025DE55 /* ProfileHeaderView.swift */; };
+		DA86AC2D2D1D6EF00025DE55 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86AC242D1D6EF00025DE55 /* PostViewController.swift */; };
+		DA86AC2E2D1D6EF00025DE55 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86AC232D1D6EF00025DE55 /* InfoViewController.swift */; };
+		DA86AC2F2D1D6EF00025DE55 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA86AC212D1D6EF00025DE55 /* .gitignore */; };
 		DA9CF8B92BFC93A4007C7BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9CF8B82BFC93A4007C7BA5 /* AppDelegate.swift */; };
 		DA9CF8BB2BFC93A4007C7BA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9CF8BA2BFC93A4007C7BA5 /* SceneDelegate.swift */; };
 		DA9CF8C22BFC93A5007C7BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9CF8C12BFC93A5007C7BA5 /* Assets.xcassets */; };
 		DA9CF8C52BFC93A5007C7BA5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DA9CF8C42BFC93A5007C7BA5 /* Base */; };
-		DAD59E152D1D6BE2009421DD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DAD59E0D2D1D6BE1009421DD /* .gitignore */; };
-		DAD59E162D1D6BE2009421DD /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD59E112D1D6BE1009421DD /* ProfileHeaderView.swift */; };
-		DAD59E172D1D6BE2009421DD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD59E0E2D1D6BE1009421DD /* FeedViewController.swift */; };
-		DAD59E182D1D6BE2009421DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD59E132D1D6BE1009421DD /* ViewController.swift */; };
-		DAD59E192D1D6BE2009421DD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD59E122D1D6BE1009421DD /* ProfileViewController.swift */; };
-		DAD59E1A2D1D6BE2009421DD /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD59E102D1D6BE1009421DD /* PostViewController.swift */; };
-		DAD59E1B2D1D6BE2009421DD /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD59E0F2D1D6BE1009421DD /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA86AC212D1D6EF00025DE55 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DA86AC222D1D6EF00025DE55 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DA86AC232D1D6EF00025DE55 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		DA86AC242D1D6EF00025DE55 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		DA86AC252D1D6EF00025DE55 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		DA86AC262D1D6EF00025DE55 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DA86AC272D1D6EF00025DE55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA9CF8B52BFC93A4007C7BA5 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9CF8B82BFC93A4007C7BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA9CF8BA2BFC93A4007C7BA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA9CF8C12BFC93A5007C7BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA9CF8C42BFC93A5007C7BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA9CF8C62BFC93A5007C7BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAD59E0D2D1D6BE1009421DD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		DAD59E0E2D1D6BE1009421DD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		DAD59E0F2D1D6BE1009421DD /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		DAD59E102D1D6BE1009421DD /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		DAD59E112D1D6BE1009421DD /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
-		DAD59E122D1D6BE1009421DD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		DAD59E132D1D6BE1009421DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +47,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA86AC282D1D6EF00025DE55 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DA86AC212D1D6EF00025DE55 /* .gitignore */,
+				DA86AC222D1D6EF00025DE55 /* FeedViewController.swift */,
+				DA86AC232D1D6EF00025DE55 /* InfoViewController.swift */,
+				DA86AC242D1D6EF00025DE55 /* PostViewController.swift */,
+				DA86AC252D1D6EF00025DE55 /* ProfileHeaderView.swift */,
+				DA86AC262D1D6EF00025DE55 /* ProfileViewController.swift */,
+				DA86AC272D1D6EF00025DE55 /* ViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		DA9CF8AC2BFC93A3007C7BA5 = {
 			isa = PBXGroup;
 			children = (
@@ -66,7 +80,7 @@
 		DA9CF8B72BFC93A4007C7BA5 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				DAD59E142D1D6BE1009422DD /* Proofile */,
+				DA86AC282D1D6EF00025DE55 /* Profile */,
 				DA9CF8B82BFC93A4007C7BA5 /* AppDelegate.swift */,
 				DA9CF8BA2BFC93A4007C7BA5 /* SceneDelegate.swift */,
 				DA9CF8C12BFC93A5007C7BA5 /* Assets.xcassets */,
@@ -74,20 +88,6 @@
 				DA9CF8C62BFC93A5007C7BA5 /* Info.plist */,
 			);
 			path = Navigation;
-			sourceTree = "<group>";
-		};
-		DAD59E142D1D6BE1009421DD /* Proofile */ = {
-			isa = PBXGroup;
-			children = (
-				DAD59E0D2D1D6BE1009421DD /* .gitignore */,
-				DAD59E0E2D1D6BE1009421DD /* FeedViewController.swift */,
-				DAD59E0F2D1D6BE1009421DD /* InfoViewController.swift */,
-				DAD59E102D1D6BE1009421DD /* PostViewController.swift */,
-				DAD59E112D1D6BE1009421DD /* ProfileHeaderView.swift */,
-				DAD59E122D1D6BE1009421DD /* ProfileViewController.swift */,
-				DAD59E132D1D6BE1009421DD /* ViewController.swift */,
-			);
-			path = Proofile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +148,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA86AC2F2D1D6EF00025DE55 /* .gitignore in Resources */,
 				DA9CF8C22BFC93A5007C7BA5 /* Assets.xcassets in Resources */,
-				DAD59E152D1D6BE2009421DD /* .gitignore in Resources */,
 				DA9CF8C52BFC93A5007C7BA5 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,12 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA9CF8B92BFC93A4007C7BA5 /* AppDelegate.swift in Sources */,
-				DAD59E162D1D6BE2009421DD /* ProfileHeaderView.swift in Sources */,
-				DAD59E172D1D6BE2009421DD /* FeedViewController.swift in Sources */,
-				DAD59E182D1D6BE2009421DD /* ViewController.swift in Sources */,
-				DAD59E192D1D6BE2009421DD /* ProfileViewController.swift in Sources */,
-				DAD59E1A2D1D6BE2009421DD /* PostViewController.swift in Sources */,
-				DAD59E1B2D1D6BE2009421DD /* InfoViewController.swift in Sources */,
+				DA86AC292D1D6EF00025DE55 /* ProfileViewController.swift in Sources */,
+				DA86AC2A2D1D6EF00025DE55 /* FeedViewController.swift in Sources */,
+				DA86AC2B2D1D6EF00025DE55 /* ViewController.swift in Sources */,
+				DA86AC2C2D1D6EF00025DE55 /* ProfileHeaderView.swift in Sources */,
+				DA86AC2D2D1D6EF00025DE55 /* PostViewController.swift in Sources */,
+				DA86AC2E2D1D6EF00025DE55 /* InfoViewController.swift in Sources */,
 				DA9CF8BB2BFC93A4007C7BA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -48,7 +48,7 @@
 		DA9CF8AC2BFC93A3007C7BA5 = {
 			isa = PBXGroup;
 			children = (
-				DAD556F92C05E70800A843A2 /* Profile */,
+				DA9CF8B72BFC93A4007C7BA5 /* Navigation */,
 				DA9CF8B62BFC93A4007C7BA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +73,7 @@
 				DA9CF8CC2BFDF04F007C7BA5 /* FeedViewController.swift */,
 				DA9CF8D02BFDF1C1007C7BA5 /* PostViewController.swift */,
 				DA9CF8D22BFDF26C007C7BA5 /* InfoViewController.swift */,
+				DAD556F92C05E70800A843A2 /* Profile */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -80,7 +81,6 @@
 		DAD556F92C05E70800A843A2 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				DA9CF8B72BFC93A4007C7BA5 /* Navigation */,
 				DAD556FA2C05E82C00A843A2 /* ProfileHeaderView.swift */,
 				DA9CF8CE2BFDF158007C7BA5 /* ProfileViewController.swift */,
 			);
@@ -309,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Profile/Navigation/Info.plist;
+				INFOPLIST_FILE = Navigation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -335,7 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Profile/Navigation/Info.plist;
+				INFOPLIST_FILE = Navigation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

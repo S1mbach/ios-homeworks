@@ -64,12 +64,12 @@
 		DA9CF8B72BFC93A4007C7BA5 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				DAD556F92C05E70800A843A2 /* Profile */,
 				DA9CF8B82BFC93A4007C7BA5 /* AppDelegate.swift */,
 				DA9CF8BA2BFC93A4007C7BA5 /* SceneDelegate.swift */,
 				DA9CF8C12BFC93A5007C7BA5 /* Assets.xcassets */,
 				DA9CF8C32BFC93A5007C7BA5 /* LaunchScreen.storyboard */,
 				DA9CF8C62BFC93A5007C7BA5 /* Info.plist */,
-				DAD556F92C05E70800A843A2 /* Profile */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
